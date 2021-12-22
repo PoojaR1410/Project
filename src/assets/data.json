@@ -1,0 +1,17 @@
+[  
+    {"id" : 1001, "place" : "Goa", "flights" : 4376,"time":"1 hr"},  
+    {"id" : 1002, "place" : "Banglore", "flights" : 3222,"time":"1 hr"},  
+    {"id" : 1003, "place" : "Chennai", "flights" : 4527,"time":"1 hr 45 min"},  
+    {"id" : 1004, "place" : "Shimala", "flights" : 4376,"time":"1 hr 45min"},  
+    {"id" : 1005, "place" : "Udaipur", "flights" : 7694,"time":"6 hr 55min"},  
+    {"id" : 1006, "place" : "Manali", "flights" : 4568,"time":"1 hr 45min"},  
+    {"id" : 1007, "place" : "Nainital", "flights" : 4427,"time":"2 hr"},  
+    {"id" : 1008, "place" : "Darjeeling", "flights" : 8037,"time":"3 hr"},
+    {"id" : 1009, "place" : "Lucknow", "flights" : 9232,"time":"2 hr"},
+    {"id" : 1010, "place" : "Bikaner", "flights" : 4561,"time":"3 hr 10min"},
+    {"id" : 1011, "place" : "Thiruvananthapuram", "flights" : 6059,"time":"2 hr 5min"},
+    {"id" : 1012, "place" : "Amritsar", "flights" : 8031,"time":"2 hr 40min"},  
+    {"id" : 1013, "place" : "Mysuru", "flights" : 3214,"time":"4 hr"},
+    {"id" : 1014, "place" : "Ooty", "flights" : 3259,"time":"1 hr 25min"},
+    {"id" : 1015, "place" : "Hampi", "flights" : 4523,"time":"1 hr 35min"}
+] 

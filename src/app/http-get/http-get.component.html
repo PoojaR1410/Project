@@ -1,0 +1,94 @@
+<html>
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+  <div id="abc">
+    
+    <br>
+    <br>
+      <div class="head"><h1>Destination Details</h1></div>
+  </div>
+  <div class="main">
+  <br>
+  
+  <div class="details">
+    
+          <h1>Explore Destinations.</h1>
+    
+          <p>
+              Following are some Destinations and details like flight tickits and time required to reach your places from Pune.
+          </p>
+          
+           <p>
+           Click given button to get Destinations.
+          </p>
+          <br>
+
+
+  </div>
+ <div >
+
+
+    <div class="form-group" style="text-align: center;margin: auto;">
+        <button type="button" class="btn" (click)="getRepos()">Get Details</button>
+      </div><br>
+
+      <div *ngIf="loading">loading...</div>
+ 
+<div *ngIf="errorMessage" class="alert alert-warning">
+  <strong>Warning!</strong> {{errorMessage | json}}
+</div>
+ 
+ 
+<table id="customers">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Destnation</th>
+      <th>Flight Ticket(in Rs)</th>
+      <th>Timings </th> 
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let repo of repos;">
+      <td>{{repo.id}}</td>
+      <td>{{repo.place}}</td>
+      <td>{{repo.flights}}</td>
+    <td>{{repo.time}}</td>
+    </tr>
+  </tbody>
+</table>
+ 
+
+</div><br><br>
+        
+
+
+     
+       
+        <div class="center">
+      <div class="pagination">
+          <a routerLink="/home">&laquo;</a>
+        
+         <a routerLink="/home">1</a>
+         <a routerLink="/about">2</a>
+        <a routerLink="/destination">3</a>
+      <a routerLink="/photo">4</a>
+      <a routerLink="/contact">5</a>
+      <a routerLink="/msg">6</a>
+     
+      
+      <a routerLink="/about">&raquo;</a>
+  </div>
+</div>
+  <router-outlet></router-outlet>
+
+<br><br><br><br>
+  </div>
+
+  </body>
+  
+  </html>
